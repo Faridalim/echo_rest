@@ -9,7 +9,7 @@ import (
 	"net/smtp"
 	"strings"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 func postExternal(c echo.Context) error {

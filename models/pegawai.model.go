@@ -1,6 +1,9 @@
 package models
 
-import "echo_rest/db"
+import (
+	"echo_rest/db"
+	"fmt"
+)
 
 type Pegawai struct {
 	Id      int    `json:"id"`
@@ -18,15 +21,15 @@ func FetchAllPegawai() (Response, error) {
 	sqlStatement := "SELECT * FROM pegawai"
 
 	rows, err := con.Query(sqlStatement)
-	defer rows.Close()
-
 	if err != nil {
 		return res, err
 	}
+	defer rows.Close()
 
 	for rows.Next() {
 		err = rows.Scan(&obj.Id, &obj.Nama, &obj.Alamat, &obj.Telepon)
 		if err != nil {
+			fmt.Println("error di sini 2")
 			return res, err
 		}
 

@@ -1,0 +1,157 @@
+[
+  {
+    "method": "GET",
+    "path": "/generatehash",
+    "name": "echo_rest/controllers.GenerateHashPassword"
+  },
+  {
+    "method": "GET",
+    "path": "/tes",
+    "name": "echo_rest/controllers.TesValidasi"
+  },
+  {
+    "method": "HEAD",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "PUT",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "REPORT",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "POST",
+    "path": "/pegawai",
+    "name": "echo_rest/controllers.StorePegawai"
+  },
+  {
+    "method": "GET",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "PROPFIND",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "TRACE",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "CONNECT",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "PATCH",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "PUT",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "POST",
+    "path": "/login",
+    "name": "echo_rest/controllers.CheckLogin"
+  },
+  {
+    "method": "CONNECT",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "PROPFIND",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "DELETE",
+    "path": "/pegawai",
+    "name": "echo_rest/controllers.DeletePegawai"
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "REPORT",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "DELETE",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "GET",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "DELETE",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "GET",
+    "path": "/restricted/pegawai",
+    "name": "echo_rest/controllers.FetchAllPegawai"
+  },
+  {
+    "method": "PATCH",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "GET",
+    "path": "/restricted/updateakses",
+    "name": "echo_rest/controllers.UpdateAccess"
+  },
+  {
+    "method": "GET",
+    "path": "/",
+    "name": "echo_rest/routes.hello"
+  },
+  {
+    "method": "HEAD",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "POST",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "TRACE",
+    "path": "/restricted/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "PUT",
+    "path": "/pegawai",
+    "name": "echo_rest/controllers.UpdatePegawai"
+  },
+  {
+    "method": "POST",
+    "path": "/restricted",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  }
+]
