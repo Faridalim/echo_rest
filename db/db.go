@@ -2,7 +2,6 @@ package db
 
 import (
 	"database/sql"
-	"echo_rest/config"
 	"fmt"
 
 	_ "github.com/go-sql-driver/mysql"
