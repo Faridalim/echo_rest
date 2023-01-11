@@ -12,7 +12,6 @@ var db *sql.DB
 var err error
 
 func Init() {
-	conf := config.GetConfig()
 
 	// username:password@protocol(address)/dbname?param=value
 	//connectionString := conf.DB_USERNAME + ":" + conf.DB_PASSWORD + "@tcp(" + conf.DB_HOST + ":" + conf.DB_PORT + ")/" + conf.DB_NAME
