@@ -14,7 +14,7 @@ func Init() {
 
 	// username:password@protocol(address)/dbname?param=value
 	//connectionString := conf.DB_USERNAME + ":" + conf.DB_PASSWORD + "@tcp(" + conf.DB_HOST + ":" + conf.DB_PORT + ")/" + conf.DB_NAME
-	connectionString := "root:root@keuangan_service_mysql/keuangan"
+	connectionString := "mysql:root@keuangan_service_mysql:3306/keuangan"
 	fmt.Println(connectionString)
 
 	db, err = sql.Open("mysql", connectionString)
